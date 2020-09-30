@@ -6,7 +6,7 @@ cache:
     - node_modules
 script:
   - yarn test --watchAll=false
-  - yarn build
+#  - yarn build
 on:
   branch: master
 deploy:
